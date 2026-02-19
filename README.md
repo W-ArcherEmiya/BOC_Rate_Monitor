@@ -1,4 +1,4 @@
-# 💱 汇率极客监控悬浮窗 (Exchange Monitor Float)
+# 💱 中行外币汇率监控 (Exchange Monitor Float)
 
 一个轻量级、无边框、半透明的桌面级外汇实时监控工具。基于 Python 和 Tkinter 开发，数据直连中国银行官方外汇牌价。专为需要长时间盯盘外汇波动（如留学生换汇、海淘、跨境交易）的用户设计。
 
