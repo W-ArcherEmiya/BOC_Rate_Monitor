@@ -1,0 +1,19 @@
+{
+  "name": "boc-rate-monitor",
+  "version": "1.0.0",
+  "description": "Desktop floating exchange-rate monitor",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test electron/*.test.cjs",
+    "check": "node --check electron/main.js && node --check electron/preload.js && node --check electron/renderer.js"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "electron": "^39.2.7"
+  },
+  "devDependencies": {}
+}

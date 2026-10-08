@@ -1,3 +1,3 @@
 @echo off
-start pythonw floating_monitor.py
-exit
+wscript.exe "%~dp0Run.vbs"
+exit /b
